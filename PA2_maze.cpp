@@ -5,8 +5,7 @@ using namespace std;
 class Node {
 	friend class LinkedList;
 	public:
-		Node() {};
-		Node(int a, int b, int c): x(a), y(b), dir(c) {};
+		Node();
 		~Node();
 		
 		int x, y;
@@ -48,6 +47,13 @@ void Stack::show() {
 
 int main() {
 	Stack maze;
+	int n;
+	
+	Node* ptr = NULL;
+	
+	while(!(ptr->x == n-1 && ptr->y == n-1)){
+		
+	}
 	
     return 0;
 }
